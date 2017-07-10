@@ -175,6 +175,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-custom .navbar-toggle:focus {
   background-color: #58bf58;
 }
+
 .navbar-custom .nav li a {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
@@ -287,14 +288,17 @@ section h2.section-heading {
   margin-top: 0;
   margin-bottom: 15px;
 }
-section h3.section-subheading {
+.section-subheading, .section-subheading a {
   font-size: 16px;
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: none;
+  text-decoration: none;
   font-style: italic;
   font-weight: 400;
-  margin-bottom: 75px;
+  margin-bottom: 20px;
+  color: white;
 }
+section h3.section-subheading.
 @media (min-width: 768px) {
   section {
     padding: 150px 0;
@@ -674,11 +678,14 @@ ul.social-buttons li a:active {
   padding: 100px 0;
   text-align: center;
 }
+.portfolio-modal .modal-content ul li {
+  text-align: left;
+}
 .portfolio-modal .modal-content h2 {
   margin-bottom: 15px;
   font-size: 3em;
 }
-.portfolio-modal .modal-content p {
+.portfolio-modal .modal-content p,.portfolio-modal .modal-content ul  {
   margin-bottom: 30px;
 }
 .portfolio-modal .modal-content p.item-intro {
