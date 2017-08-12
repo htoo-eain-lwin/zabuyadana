@@ -6,7 +6,7 @@ function myMap() {
         zoom: 15,
         mapTypeId: google.maps.MapTypeId.ROADMAP
    }
-  var markerImage = 'img/marker.png';
+  var markerImage = '../img/marker.png';
 
 	var map = new google.maps.Map(document.getElementById("map"), mapOptions);
   var marker = new google.maps.Marker({
